@@ -1,1 +1,44 @@
 /*GENERAL SETTINGS*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+body {
+	background-image: url('../images/seigaiha.png');
+	background-repeat: repeat;
+}
+
+.navbar-header {
+	background-color: #4aaaa5;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.my-name {
+	color: white;
+	margin: 0 auto;
+}
+
+hr.content {
+	border: 2px solid #dddddd;
+}
+
+.body-headers {
+	color: #4aaaa5;
+	margin-top: 0px;
+}
+
+#prof-pic {
+	float: left;
+	margin-right: 15px;
+}
+
+.panel-body {
+	padding: 25px;
+}
