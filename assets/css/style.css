@@ -4,14 +4,18 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	background-image: url('../images/seigaiha.png');
 	background-repeat: repeat;
+	height: 100%;
 }
 
 .my-name {
 	color: white;
-	margin: 0 auto;
 }
 
 .body-headers {
@@ -23,6 +27,10 @@ body {
 
 .navbar-header {
 	background-color: #4aaaa5;
+}
+
+.navbar-brand {
+	padding-left: 30px;
 }
 
 .navbar-brand,
@@ -53,4 +61,29 @@ hr.content {
 
 hr.contact-me {
 	border: 1px solid #dddddd;
+}
+
+/* FOOTER */
+
+footer {
+	padding: 40px;
+	background-color: #666666;
+	text-align: center;
+	border-top: solid #4aaaa5 8px;
+}
+
+.footer-copyright {
+	color: #abb5b2;
+	margin: 0px auto;
+}
+
+.wrapper {
+	min-height: 100%;
+	/* Equal to height of footer */
+	/* But also accounting for potential margin-bottom of last child */
+	margin-bottom: -108px;
+}
+
+.push {
+	height: 120px;
 }
