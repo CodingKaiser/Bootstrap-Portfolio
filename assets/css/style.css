@@ -9,6 +9,18 @@ body {
 	background-repeat: repeat;
 }
 
+.my-name {
+	color: white;
+	margin: 0 auto;
+}
+
+.body-headers {
+	color: #4aaaa5;
+	margin-top: 0px;
+}
+
+/* NAV-BAR */
+
 .navbar-header {
 	background-color: #4aaaa5;
 }
@@ -20,25 +32,25 @@ body {
     padding-top: 0;
 }
 
-.my-name {
-	color: white;
-	margin: 0 auto;
+/* GENERAL CONTENT WINDOW */
+
+.panel-body {
+	padding: 25px;
 }
 
 hr.content {
 	border: 2px solid #dddddd;
 }
 
-.body-headers {
-	color: #4aaaa5;
-	margin-top: 0px;
-}
+/* ABOUT-ME WINDOW */
 
 #prof-pic {
 	float: left;
 	margin-right: 15px;
 }
 
-.panel-body {
-	padding: 25px;
+/* CONACT-ME WINDOW CONTENT */
+
+hr.contact-me {
+	border: 1px solid #dddddd;
 }
