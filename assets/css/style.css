@@ -57,6 +57,28 @@ hr.content {
 	margin-right: 15px;
 }
 
+/* PORTFOLIO WINDOW */
+
+.portfolio-image {
+	width: 100%;
+}
+
+.port-image-header {
+	text-align: center;
+	position: absolute;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #4aaaa5;
+	color: white;
+	width: calc(100% - 30px);
+	bottom: 5px;
+	font-size: 150%;
+}
+
+.portfolio-image-container {
+	margin-bottom: 20px;
+}
+
 /* CONACT-ME WINDOW CONTENT */
 
 hr.contact-me {
