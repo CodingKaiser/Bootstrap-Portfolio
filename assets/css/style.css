@@ -14,10 +14,6 @@ body {
 	height: 100%;
 }
 
-.my-name {
-	color: white;
-}
-
 .body-headers {
 	color: #4aaaa5;
 	margin-top: 0px;
@@ -25,19 +21,44 @@ body {
 
 /* NAV-BAR */
 
+.nav-background-white {
+	background-color: #ffffff;
+}
+
 .navbar-header {
 	background-color: #4aaaa5;
 }
 
-.navbar-brand {
-	padding-left: 30px;
+.my-name {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-.navbar-brand,
+.navbar-brand {
+	padding-left: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-link {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.collapsed-button {
+	margin-top: 23px;
+}
+
+/*.navbar-brand,
 .navbar-nav li a {
     line-height: 80px;
     height: 80px;
     padding-top: 0;
+}*/
+
+.navbar-header, .navbar-brand {
+	height: 80px;
 }
 
 /* GENERAL CONTENT WINDOW */
