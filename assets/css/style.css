@@ -79,6 +79,12 @@ hr.content {
 	margin-bottom: 20px;
 }
 
+/* CONTACT WINDOW */
+
+textarea {
+	resize: vertical;
+}
+
 /* CONACT-ME WINDOW CONTENT */
 
 hr.contact-me {
