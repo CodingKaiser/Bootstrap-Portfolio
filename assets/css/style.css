@@ -80,10 +80,10 @@ hr.content {
 }
 
 .about-me-text {
-	line-height: 175%
+	line-height: 150%;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	font-size: 1.1em
+	font-size: 1.2em
 }
 
 /* PORTFOLIO WINDOW */
