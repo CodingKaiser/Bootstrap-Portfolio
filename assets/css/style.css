@@ -79,6 +79,13 @@ hr.content {
 	margin-right: 15px;
 }
 
+.about-me-text {
+	line-height: 175%
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 1.1em
+}
+
 /* PORTFOLIO WINDOW */
 
 .portfolio-image {
